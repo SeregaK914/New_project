@@ -94,3 +94,31 @@ body {
 .loader span:nth-child(3) {
 	animation-delay: 0.55s;
 }
+
+#cont {
+	position: fixed; /* or absolute */
+top: 5%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#cont2 {
+	position: fixed; /* or absolute */
+top: 50%;
+left: 1%;
+transform: translate(-50%, -50%);
+}
+
+#cont3 {
+	position: fixed; /* or absolute */
+top: 50%;
+right: 1%;
+transform: translate(-50%, -50%);
+}
+
+#cont4 {
+	position: fixed; /* or absolute */
+top: 95%;
+right: 50%;
+transform: translate(-50%, -50%);
+}
